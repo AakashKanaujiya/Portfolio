@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aakash Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="img/fevicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3cc7cc4f19.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            
+            <nav>
+                <div class="logo">
+                    <p><span>A</span>akash</p>
+                </div>
+                <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <button class="resumeBtn"><a href="Aakash Kanaujiya Resume.pdf" class="download" download>Resume</a></button>
+                <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+
+            <div class="main">
+                <div class="info">
+                    Hi! I'm <span id="textColor">Aakash Kanaujiya</span>
+                    <div class="web">
+                        And I am a passionate
+                        <br>
+                        <span id="element"></span>
+                    </div>
+                </div>
+                <div class="coverphoto">
+                    <img src="img/cover 3W.png" class="lap-photo">
+                    <img src="img/cover 3W phone.png" class="phone-photo">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/cover 1 r.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p id="AboutText">Dedicated and enthusiastic fresher web developer with a strong foundation in HTML, CSS, JavaScript and React.js. Eager to contribute to innovative projects and learn from experienced professionals. Possessing excellent problem-solving and analytical skills, I am committed to delivering high-quality web solutions.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>JavaScript, HTML, CSS, Java(programing)</li>
+                            <li><span>Technogies</span><br>React.js, Next.js, Tailwind CSS</li>
+                            <li><span>Dev Tools</span><br>Github</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>internship</span><br>2 months intern in IBM role as Data Anaylytics</li>
+                            <li><span>Front-End Certification</span><br>Certified in front-End development by infosys Spring Board</li>
+                            <li><span>Self-Work</span><br>Create more than 5 good projects</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>B.Tech (Computer Science and Engineering) from AKGEC Ghaziabad</li>
+                            <li><span>2018</span><br>10th from G N D P Y N Inter College</li>
+                            <li><span>2020</span><br>12th from G N D P Y N Inter College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>The web development process involves taking the graphical elements defined in the design process and coding them into a custom Wordpress theme.
+                    </p>
+                    <a href="#services">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI Designe</h2>
+                    <p>I am a UI designer with a keen eye for detail and a basic foundation in design principles, I creating visually appealing and user-friendly interfaces for websites and mobile applications.
+                    </p>
+                    <a href="#services">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <h2>Photo Editing</h2>
+                    <p>Some basic knowledge of photo editing software such as Adobe Photoshop, Lightroom, and other   relevant tools, Expert in color correction, retouching, and image manipulation techniques.
+                    </p>
+                    <a href="#services">Learn more</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+ 
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Music Player</h3>
+                        <p>Music player using HTML CSS and JavaScript where user visit and play song according to our favourite playlist and this music player responsive in every type screen and device</p>
+                        <a href="https://musictadka.freewebhostmost.com/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p> Designed and implemented a user-friendly weather app with HTML and CSS, utilizing Tailwind CSS for a streamlined, customizable UI and JavaScript for fetching and displaying real-time weather information and user interaction</p>
+                        <a href="https://github.com/AakashKanaujiya/Weather-App" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Razorpay-Clone</h3>
+                        <p> Designed a clone web application helps you accept online payments from customers across Desktop, Mobile web, Android & iOS using HTML and Tailwind CSS</p>
+                        <a href="https://github.com/AakashKanaujiya/razorpay" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#portfolio" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <div class="ContactInfo">
+                        <p><i class="fa-solid fa-paper-plane"></i>aakasharya1430@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>7388852807</p>
+                        <div class="social-icon">
+                          <a href="https://www.linkedin.com/in/aakash-kanaujiya-a6bb03272/" target="_blank"><i  class="fa-brands fa-linkedin"></i></a>
+                          <a href="https://github.com/AakashKanaujiya" target="_blank"><i class="fa-brands fa-github"></i></a>
+                          <a href="https://x.com/Aakash143000" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                          <a href="https://www.instagram.com/aakash_kanaujiya__?utm_source=qr&igsh=OXF1d3d4YTg5am52" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                          <a href="https://wa.me/qr/GEDYZKROOONRJ1" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                        <a href="Aakash Kanaujiya Resume.pdf" download class="btn btn2">Download Resume</a>
+                    </div>
+                    
+                </div>
+
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2" style="display: flex;">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer', 'Web Developer','UI Designer'] ,
+            typeSpeed: 50,
+            backSpeed:50,
+            loop: true,
+        });
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>

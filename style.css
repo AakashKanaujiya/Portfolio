@@ -583,5 +583,34 @@ nav .fas{
     .coverphoto{
         padding-left: 0;
     }
-    
+    .nav ul li a::after{
+        transition: none;
+    }
+
+    .tab-links::after{
+        transition: none;
+    }
+
+    .services-list div{
+        transition: none;
+    }
+
+    .work img{
+        transition: none;
+    }
+
+    .layer{
+        transition: none;
+    }
+    .btn{
+        transition: none;
+    }
+
+    .social-icon a{
+        transition: none;
+    }
+
+    nav ul{
+        transition: none;
+    }
 }

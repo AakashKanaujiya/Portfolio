@@ -585,3 +585,13 @@ nav .fas{
     }
     
 }
+
+#msg{
+    color: #61b752;
+    padding-bottom: 60px;
+    margin: -40px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
